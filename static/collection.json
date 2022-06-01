@@ -1,0 +1,25 @@
+{
+    "bookList":[
+        {
+            "id":1,
+            "name":"Harry Potter and la piedra filosofal",
+            "author":"J.K. Rowling",
+            "labels":"fiction",
+            "quantity":3
+        },
+        {
+            "id":2,
+            "name":"Harry Potter and the Deathly Hallows",
+            "author":"J.K. Rowling",
+            "labels":"fiction",
+            "quantity":6
+        },
+        {
+            "id":3,
+            "name":"Harry Potter and the el caliz de fuego",
+            "author":"J.K. Rowling",
+            "labels":"fiction",
+            "quantity":7
+        }
+    ]
+}

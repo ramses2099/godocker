@@ -5,9 +5,13 @@ ADD . /app/
 
 RUN CGO_ENABLED=0 go build -o godocker
 
-#FROM alpine:latest
-FROM scratch
+FROM alpine:latest
+
+#USE SCRATCH FOR NO PACKAGUE INSTALL
+#FROM scratch 
+
 WORKDIR /app
+RUN apk add --no-cache bash
 COPY --from=builder /app/godocker .
 COPY --from=builder /app/static/* ./static/
 COPY --from=builder /app/templates/* ./templates/

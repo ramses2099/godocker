@@ -9,3 +9,5 @@
 2022/06/01 15:02:30 No have boooklist  redis: nil
 2022/06/01 17:40:00 Application running in enviroment:  dev  and on port:  8082
 2022/06/01 17:40:39 No have boooklist  redis: nil
+{"app_port":0,"level":"info","msg":"Application running in enviroment: ","runtime_setup":"","time":"2022-06-02T15:14:44-04:00"}
+{"app_port":8082,"level":"info","msg":"Application running in enviroment: ","runtime_setup":"dev","time":"2022-06-02T19:19:59Z"}
